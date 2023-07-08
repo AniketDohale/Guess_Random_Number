@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 15px;
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guesses {
+    margin: 10px;
+}
+
+input[type=text] {
+    margin: 10px;
+    padding: 5px;
+}
+
+.resultParas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#subt {
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#subt:hover {
+    background-color: rgb(73, 73, 73);
+}
+
+#newGame {
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
